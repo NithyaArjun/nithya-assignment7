@@ -1,0 +1,43 @@
+package com.coderscampus;
+
+import java.util.Scanner;
+
+public class CustomArrayList<T> implements CustomList<T>{
+Object[] items = new Object[10];
+int size = 0;
+
+	@Override
+	public boolean add(Object item) {
+		if(size == items.length) {
+			return false;
+		}
+		items[size]=item;
+		size++;
+		return true;
+	}
+
+	@Override
+	public boolean add(int index, Object item) {
+		
+		return false;
+	}
+
+	@Override
+	public int getSize() {
+		
+		return 0;
+	}
+
+	@Override
+	public T get(int index) {
+		
+		return null;
+	}
+
+	@Override
+	public T remove(int index) {
+		
+		return null;
+	}
+
+}

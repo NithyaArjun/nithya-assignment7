@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="CustomArrayListTest.should_set_one_item_at_specific_index" project="unittesting" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="com.coderscampus.CustomArrayListTest" time="0.002" displayname="CustomArrayListTest" uniqueid="[engine:junit-jupiter]/[class:com.coderscampus.CustomArrayListTest]">
+    <testcase name="should_set_one_item_at_specific_index" classname="com.coderscampus.CustomArrayListTest" time="0.002" displayname="should_set_one_item_at_specific_index()" uniqueid="[engine:junit-jupiter]/[class:com.coderscampus.CustomArrayListTest]/[method:should_set_one_item_at_specific_index()]"/>
+  </testsuite>
+</testrun>

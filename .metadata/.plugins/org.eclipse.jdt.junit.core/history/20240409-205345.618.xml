@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="CustomArrayListTest.should_set_one_item_toList" project="unittesting" tests="1" started="1" failures="1" errors="0" ignored="0">
+  <testsuite name="com.coderscampus.CustomArrayListTest" time="0.013" displayname="CustomArrayListTest" uniqueid="[engine:junit-jupiter]/[class:com.coderscampus.CustomArrayListTest]">
+    <testcase name="should_set_one_item_toList" classname="com.coderscampus.CustomArrayListTest" time="0.013" displayname="should_set_one_item_toList()" uniqueid="[engine:junit-jupiter]/[class:com.coderscampus.CustomArrayListTest]/[method:should_set_one_item_toList()]">
+      <failure>
+        <expected>item1</expected>
+        <actual>null</actual>
+        org.opentest4j.AssertionFailedError: expected: &lt;item1&gt; but was: &lt;null&gt;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1145)
+	at com.coderscampus.CustomArrayListTest.should_set_one_item_toList(CustomArrayListTest.java:16)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+
+      </failure>
+    </testcase>
+  </testsuite>
+</testrun>

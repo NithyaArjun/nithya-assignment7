@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="CustomArrayListTest" project="unittesting" tests="4" started="4" failures="0" errors="0" ignored="0">
+  <testsuite name="com.coderscampus.CustomArrayListTest" time="0.008" displayname="CustomArrayListTest" uniqueid="[engine:junit-jupiter]/[class:com.coderscampus.CustomArrayListTest]">
+    <testcase name="should_set_one_item_at_specific_index" classname="com.coderscampus.CustomArrayListTest" time="0.006" displayname="should_set_one_item_at_specific_index()" uniqueid="[engine:junit-jupiter]/[class:com.coderscampus.CustomArrayListTest]/[method:should_set_one_item_at_specific_index()]"/>
+    <testcase name="should_set_new_item_toList" classname="com.coderscampus.CustomArrayListTest" time="0.0" displayname="should_set_new_item_toList()" uniqueid="[engine:junit-jupiter]/[class:com.coderscampus.CustomArrayListTest]/[method:should_set_new_item_toList()]"/>
+    <testcase name="should_get_size_of_List" classname="com.coderscampus.CustomArrayListTest" time="0.001" displayname="should_get_size_of_List()" uniqueid="[engine:junit-jupiter]/[class:com.coderscampus.CustomArrayListTest]/[method:should_get_size_of_List()]"/>
+    <testcase name="should_get_item_at_index" classname="com.coderscampus.CustomArrayListTest" time="0.0" displayname="should_get_item_at_index()" uniqueid="[engine:junit-jupiter]/[class:com.coderscampus.CustomArrayListTest]/[method:should_get_item_at_index()]"/>
+  </testsuite>
+</testrun>

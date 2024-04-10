@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="CustomArrayListTest.should_set_one_item_toList" project="unittesting" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="com.coderscampus.CustomArrayListTest" time="0.006" displayname="CustomArrayListTest" uniqueid="[engine:junit-jupiter]/[class:com.coderscampus.CustomArrayListTest]">
+    <testcase name="should_set_one_item_toList" classname="com.coderscampus.CustomArrayListTest" time="0.006" displayname="should_set_one_item_toList()" uniqueid="[engine:junit-jupiter]/[class:com.coderscampus.CustomArrayListTest]/[method:should_set_one_item_toList()]"/>
+  </testsuite>
+</testrun>

@@ -1,0 +1,39 @@
+package com.coderscampus;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class CustomArrayListTest {
+	CustomList<Integer> customList = new CustomArrayList<>();
+
+	@Test
+	void should_add_one_item_toList() {
+		
+		customList.add(1);
+		assertEquals(1,customList.getSize());
+		assertEquals(1,customList.get(0));
+		
+	}
+	void should_add_one_item_at_specific_index() {
+		
+		assertEquals(0,customList.getSize());
+		customList.add(10);
+		assertEquals(1,customList.getSize());
+		
+			
+	}
+	void should_get_size_of_List() {
+		
+		customList.add(5);
+		customList.add(10);
+		assertEquals(5,customList.getSize());
+		assertEquals(10,customList.getSize());
+	}
+	void should_get_item_at_specific_index() {
+		
+		customList.add(1, 10);
+		assertEquals(10, customList.get(1));
+	}
+
+}

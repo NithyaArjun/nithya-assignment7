@@ -1,0 +1,42 @@
+package com.coderscampus;
+
+import java.util.Objects;
+
+public class CustomArrayList<T> implements CustomList<T>{
+
+	public static void main(String[] args) {
+		Object[] items = new Objects[10];
+
+	}
+
+	@Override
+	public boolean add(Object item) {
+		
+		return false;
+	}
+
+	@Override
+	public boolean add(int index, Object item) {
+		
+		return false;
+	}
+
+	@Override
+	public int getSize() {
+		
+		return 0;
+	}
+
+	@Override
+	public T get(int index) {
+		
+		return null;
+	}
+
+	@Override
+	public T remove(int index) {
+		
+		return null;
+	}
+
+}

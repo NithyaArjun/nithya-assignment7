@@ -1,0 +1,52 @@
+package com.coderscampus;
+
+import java.util.Scanner;
+
+public class CustomArrayList<T> implements CustomList<T>{
+
+	public static void main(String[] args) {
+		CustomList<Integer> customList = new CustomArrayList<>();
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Enter the element to be added to the array");
+		Integer item = scan.nextInt();
+		customList.add(item);
+		
+		scan.close();
+		
+
+	}
+
+	@Override
+	public boolean add(Object item) {
+		if(size==customList.lenth) {
+			
+		}
+		
+		return false;
+	}
+
+	@Override
+	public boolean add(int index, Object item) {
+		
+		return false;
+	}
+
+	@Override
+	public int getSize() {
+		
+		return 0;
+	}
+
+	@Override
+	public T get(int index) {
+		
+		return null;
+	}
+
+	@Override
+	public T remove(int index) {
+		
+		return null;
+	}
+
+}
