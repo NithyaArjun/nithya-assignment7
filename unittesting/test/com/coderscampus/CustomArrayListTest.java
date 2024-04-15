@@ -11,6 +11,22 @@ class CustomArrayListTest {
 	@Test
 	void should_set_new_item_toList() {
 
+		CustomList<Integer> sut = new CustomArrayList<>();
+
+		for (int i = 0; i < 10; i++) {
+			sut.add(i);
+		}
+
+		sut.remove(9);
+		sut.remove(7);
+		sut.add(1000);
+		sut.add(7, 1001);
+		sut.add(7, 1002);
+		sut.add(7, 89);
+		sut.remove(7);
+		sut.add(2000);
+		sut.add(3000);
+
 		customList.add("item1");
 		assertEquals(1, customList.getSize());
 		assertEquals("item1", customList.get(0));

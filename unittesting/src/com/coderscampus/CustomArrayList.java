@@ -27,6 +27,11 @@ public class CustomArrayList<T> implements CustomList<T> {
 			throw new IndexOutOfBoundsException("index=" + index + " size=" + size);
 		}
 
+		if (size == items.length) {
+			int newSize = items.length * 2;
+			items = Arrays.copyOf(items, newSize);
+		}
+
 		items[index] = item;
 		size++;
 		return true;
@@ -52,17 +57,19 @@ public class CustomArrayList<T> implements CustomList<T> {
 	@Override
 	public T remove(int index) {
 
-		if (index > items.length || index < 0) {
+		if (index >= items.length || index < 0) {
 			throw new IndexOutOfBoundsException("index=" + index);
 		}
 
 		@SuppressWarnings("unchecked")
 		T removed = (T) items[index];
-		Integer numRemoved = size - index + 1;
+		Integer numMoved = size - index - 1;
 
-		if (numRemoved > 0) {
-			System.arraycopy(items, index + 1, items, index, numRemoved);
+		if (numMoved > 0) {
+			System.arraycopy(items, index + 1, items, index, numMoved);
 		}
+
+		items[--size] = null;
 
 		return (T) removed;
 	}
