@@ -28,12 +28,20 @@ public class CustomArrayList<T> implements CustomList<T> {
 		}
 
 		if (size == items.length) {
-			int newSize = items.length * 2;
-			items = Arrays.copyOf(items, newSize);
+			int size = items.length * 2;
+			items = Arrays.copyOf(items, size);
+		}
+
+		Integer numMoved = size - index;
+
+		if (numMoved > 0) {
+			System.arraycopy(items, index, items, index + 1, numMoved);
+
 		}
 
 		items[index] = item;
 		size++;
+
 		return true;
 	}
 

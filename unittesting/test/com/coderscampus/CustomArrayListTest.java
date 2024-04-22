@@ -26,7 +26,6 @@ class CustomArrayListTest {
 		sut.remove(7);
 		sut.add(2000);
 		sut.add(3000);
-
 		customList.add("item1");
 		assertEquals(1, customList.getSize());
 		assertEquals("item1", customList.get(0));
